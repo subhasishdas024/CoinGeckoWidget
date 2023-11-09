@@ -1,55 +1,37 @@
-# CoinGecko Token Widget
-
+# CoinGecko 
 ## Overview
-The CoinGecko Token Widget is a nifty JavaScript script designed to seamlessly integrate token details from CoinGecko into your web page. Whether you're curious about a token's name, market cap, current price, or 24-hour trading volume, this widget has got you covered.
+This JavaScript widget allows you to easily embed CoinGecko token details into your web page. It fetches information such as token name, market cap, current price, and 24-hour trading volume from the CoinGecko API.
 
-## Usage Guidelines
+Follow Steps : 
 
-1. **Incorporate the JavaScript Magic:**
-   - Elevate your web page by adding the enchanting CoinGecko Widget script. Simply insert the following script tag into your HTML:
-     ```html
-     <script type="text/javascript" src="coinGeckoWidget.js"></script>
-     ```
+Script:
 
-2. **Craft a Home for the Widget:**
-   - Carve out a special place on your web page for the widget to flourish:
-     ```html
-     <div id="coinGeckoWidget"></div>
-     ```
+Add the following script tag to your HTML file, preferably in the <head> section:
 
-3. **Summon the Widget to Action:**
-   - Infuse life into the widget by summoning it with the spell of JavaScript. Choose a token to reveal its secrets:
-     ```javascript
-     // Example: Unveil the mysteries of Ethereum
-     loadTokenDetails("ethereum");
-     ```
+html
+<script src="path/to/coinGeckoWidget.js"></script>
 
-4. **Unleash Limitless Potential:**
-   - Feel the power as you effortlessly update the widget with the details of a different token. Simply invoke the `loadTokenDetails` function with the new token name.
+Initialize Widget:
 
-## Spellbinding Example
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CoinGecko Token Widget</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+Call the loadTokenDetails function with the desired token name. For example:
 
-<!-- Witness the magic within this sacred container -->
-<div id="coinGeckoWidget"></div>
-
-<!-- Embed the mystical widget script -->
-<script type="text/javascript" src="coinGeckoWidget.js"></script>
-
-<!-- Awaken the widget with the chosen token's name -->
+html
 <script>
-  // Example: Unleash the magic of Ethereum
   loadTokenDetails("ethereum");
 </script>
+Styling (Optional):
 
-</body>
-</html>
+Customize the widget appearance by modifying the styles in the styles.css file.
+
+## Styling Customization
+
+The provided styles.css file includes basic styling. Feel free to modify the styles to match your website's design.
+
+## Dependencies
+
+No external dependencies. The widget utilizes the Fetch API for API requests.
+
+## Support
+
+For any issues or inquiries, please create an issue.
+
