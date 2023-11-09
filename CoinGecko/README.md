@@ -16,9 +16,8 @@ Initialize Widget:
 Call the loadTokenDetails function with the desired token name. For example:
 
 html
-``` <script>
-      loadTokenDetails("ethereum");
-    </script> ```
+
+``` <script> loadTokenDetails("ethereum"); </script> ```
 
 ## Styling (Optional):
 
