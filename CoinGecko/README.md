@@ -18,7 +18,7 @@ Call the loadTokenDetails function with the desired token name. For example:
 html
 ``` <script>
       loadTokenDetails("ethereum");
-    </script>
+    </script> ```
 
 ## Styling (Optional):
 
