@@ -9,17 +9,18 @@ Script:
 Add the following script tag to your HTML file, preferably in the <head> section:
 
 html
-<script src="path/to/coinGeckoWidget.js"></script>
+``` <script src="path/to/coinGeckoWidget.js"></script> ```
 
 Initialize Widget:
 
 Call the loadTokenDetails function with the desired token name. For example:
 
 html
-<script>
-  loadTokenDetails("ethereum");
-</script>
-Styling (Optional):
+``` <script>
+      loadTokenDetails("ethereum");
+    </script>
+
+## Styling (Optional):
 
 Customize the widget appearance by modifying the styles in the styles.css file.
 
